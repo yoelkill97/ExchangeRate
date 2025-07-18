@@ -6,6 +6,19 @@ ExchangeRate es una aplicación Android diseñada para facilitar la consulta de 
 
 El desarrollo de esta aplicación se ha centrado en seguir las mejores prácticas de la industria, implementando una **Arquitectura Limpia** para asegurar un código robusto, mantenible, escalable y fácil de probar.
 
+## Capturas de Pantalla
+
+Aquí puedes ver algunas de las pantallas principales de la aplicación:
+
+**Pantalla de Bienvenida (Splash Screen):**
+![Pantalla de Bienvenida de ExchangeRate](screenshots/SplashScreen.jpg)
+
+**Calculadora de Tasas de Cambio:**
+![Calculadora de Tasas de Cambio de ExchangeRate](screenshots/ExchangeRateCalculatorScreen.jpg)
+
+**Historial de Conversiones:**
+![Historial de Conversiones de ExchangeRate](screenshots/ConversionHistoryScreen.jpg)
+
 ## Funcionalidades Principales
 
 *   **Pantalla de Bienvenida (Splash Screen):** Una pantalla de inicio animada que mejora la experiencia del usuario al abrir la aplicación.
