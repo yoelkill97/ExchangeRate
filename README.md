@@ -10,17 +10,25 @@ El desarrollo de esta aplicación se ha centrado en seguir las mejores práctica
 
 Aquí puedes ver algunas de las pantallas principales de la aplicación:
 
-**Pantalla de Bienvenida (Splash Screen):**
-<img src="screenshots/SplashScreen.jpg" alt="Pantalla de Bienvenida de ExchangeRate" width="250"/>
-
-**Calculadora de Tasas de Cambio:**
-<img src="screenshots/ExchangeRateCalculatorScreen.jpg" alt="Calculadora de Tasas de Cambio de ExchangeRate" width="250"/>
-
-**Historial de Conversiones:**
-<img src="screenshots/ConversionHistoryScreen.jpg" alt="Historial de Conversiones de ExchangeRate" width="250"/>
-
-**Historial de Conversiones:**
-![Historial de Conversiones de ExchangeRate](screenshots/ConversionHistoryScreen.jpg)
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/SplashScreen.jpg" alt="Pantalla de Bienvenida de ExchangeRate" width="200"/>
+      <br>
+      <sub>Pantalla de Bienvenida</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/ExchangeRateCalculatorScreen.jpg" alt="Calculadora de Tasas de Cambio de ExchangeRate" width="200"/>
+      <br>
+      <sub>Calculadora de Tasas</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/ConversionHistoryScreen.jpg" alt="Historial de Conversiones de ExchangeRate" width="200"/>
+      <br>
+      <sub>Historial de Conversiones</sub>
+    </td>
+  </tr>
+</table>
 
 ## Funcionalidades Principales
 
