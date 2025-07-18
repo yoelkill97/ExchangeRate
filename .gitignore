@@ -1,0 +1,95 @@
+# Ignorar directorios y archivos de compilación de Gradle
+#############################################################
+.gradle/
+/build/
+/app/build/
+/buildSrc/build/
+/buildSrc/.gradle/
+/local.properties # Configuración local del SDK de Android, no debe ser compartida
+.DS_Store # Archivos específicos de macOS (si trabajas en Mac)
+
+# Directorios de Android Studio y configuraciones IDE
+#####################################################
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+captures/ # Directorio para capturas de rendimiento, etc.
+app/.cxx/ # Archivos generados por CMake/NDK
+
+# Archivos de depuración y logs
+###############################
+*.log
+*.pck
+*.apk
+*.aab # Android App Bundles
+*.ap_ # Archivos de recursos empaquetados
+*.dex # Dalvik Executables
+*.so # Librerías nativas (shared objects)
+*.rc # Android resources
+*.map # Sourcemaps para depuración
+
+# Archivos de caché y temporales
+#################################
+.externalNativeBuild/
+.kotlin/
+.vscode/ # Si usas VS Code para algo en el proyecto
+/.gradle-cache/
+/gradle-wrapper/gradle-wrapper.jar # Gradle Wrapper JAR (normalmente se maneja con Gradle Wrapper)
+local.properties # Propiedades locales del SDK
+crashlytics-build.properties
+fabric.properties
+
+# Archivos de configuración de Gradle Wrapper
+# El JAR del wrapper ya está ignorado arriba, pero podrías querer ignorar el directorio entero si lo descargas localmente.
+# Sin embargo, generalmente los scripts del wrapper (gradlew, gradlew.bat) y la configuración del wrapper
+# (gradle/wrapper/gradle-wrapper.properties) SÍ deben estar en Git para garantizar la misma versión de Gradle para todos.
+# Así que esta sección es más bien un recordatorio.
+# gradle/wrapper/gradle-wrapper.jar
+
+# Directorios generados por Jetpack Compose (si aplica)
+######################################################
+.idea/libraries/androidx.compose.*.xml # Archivos de librería de Compose generados por IDE
+
+# Archivos de seguridad/credenciales sensibles (NO DEBEN SUBIRSE NUNCA)
+#########################################################################
+# Estos archivos contienen claves API, credenciales de Firebase, etc.
+# Si tienes estos archivos, asegúrate de que estén en tu .gitignore y
+# de que no estén ya en tu historial de Git.
+#
+# Para Firebase:
+google-services.json # Archivo de configuración de Firebase
+
+# Para claves de API u otras credenciales personalizadas:
+secrets.properties # Común para guardar secretos con la API de Secrets Gradle Plugin
+# Si tienes otros archivos de claves:
+*.jks # Keystores para firmar APKs
+*.keystore
+debug.keystore # Keystore por defecto de depuración (puede ser útil, pero no es crítico si se regenera)
+
+# Otros archivos y directorios comunes de sistemas operativos
+##########################################################
+Thumbs.db # Archivos de caché de miniaturas de Windows
+.DS_Store # Archivos de metadatos de macOS (repetido por seguridad, pero no hace daño)
+ehthumbs.db
+Desktop.ini
+
+# Archivos de dependencia (Maven/Ivy)
+###################################
+/libs/ # Si descargas librerías directamente aquí, ignóralo. Es mejor usar Gradle.
+/repo/ # Si tienes un repositorio Maven/Ivy local.
+
+# Archivos generados por Jacoco (si usas cobertura de código)
+############################################################
+**/*.exec
+
+# Archivos de informe de lint (si generas informes HTML/XML)
+##########################################################
+lint-results*.*
+
+# IDE específicos adicionales
+# ---------------------------
+# Dependiendo de tu IDE o plugins
+.vscode/ # Si usas VSCode para algo, aunque Android Studio es lo principal
+.cpc/ # Android Studio Code Coverage

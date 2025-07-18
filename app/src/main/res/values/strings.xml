@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ExchangeRate</string>
+    <string name="app_logo_description">Fintech Exchange Rate Calculator Logo</string>
+    <string name="slogan">Cambia tus dólares y soles al instante</string>
+    <string name="buy_rate">COMPRA S/ %s</string>
+    <string name="sell_rate">VENTA S/ %s</string>
+    <string name="you_have">Tienes</string>
+    <string name="amount">Cantidad</string>
+    <string name="you_receive">Recibes</string>
+    <string name="converted_amount">Cantidad Convertida</string>
+    <string name="swap_currencies">Intercambiar Monedas</string>
+    <string name="save_conversion">Guardar Conversión</string>
+    <string name="conversion_saved">Conversión guardada</string>
+</resources>
